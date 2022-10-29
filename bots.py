@@ -217,37 +217,6 @@ class YourBot(BaseBot):
     def _enter_dice(self):
         """simulate user entering which dice to keep.
         Defaults to all scoring dice"""
-        # roll = self.last_roll
-        # keeps = []
-        # counts = Counter(self.last_roll).most_common
-        #
-        # if counts[0][1] == 3 and len(counts) > 2 and counts[0][0] != 5
-        #
-        #
-        # roll = self.last_roll
-        # keeps = []
-        # counts = Counter(self.last_roll).most_common # Outputs: [(die, count), (die, count)]
-        #
-        # # Keep any 1's
-        # for die in roll:
-        #     if die == 1:
-        #         keeps.append(die)
-        #         roll.remove(die)
-        #
-        # # Keep any triple or greater (exclude ones)
-        # for pair in counts:
-        #     if pair[1] >= 3:
-        #         for die in roll:
-        #             if die == pair[0]:
-        #                 keeps.append(die)
-        #                 roll.remove(die)
-
-
-
-
-
-
-
 
         return super()._enter_dice()
 
