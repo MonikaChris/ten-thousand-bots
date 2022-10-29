@@ -1,5 +1,10 @@
 # Ten Thousand Game
 
+# Attribution:
+Thanks to Ryan Mckenna for his Farkle probabilities. These were used to determine when to bank or re-roll.
+http://www.ryanhmckenna.com/2018/07/optimal-strategy-for-farkle-dice.html
+
+
 ## Version 1
 
 - GameLogic class
